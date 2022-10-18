@@ -5,6 +5,10 @@ date: "2022-10-18"
 output: html_document
 ---
 
+```{r}
+install.packages("tidyverse", type = "binary")
+```
+
 You've read a [blog post](https://rstudio-pubs-static.s3.amazonaws.com/599947_7c545f28e24e4d21ab5dcbbb59210c63.html) by Glenn Moncrieff on Reproducibility in R. To collaborate share your work with others and encourage that it will run the same on their machine as your own, there are a number of options, which range from environment management to hosting an executable computing environment on a repository.
 
 This notebook is intended to help you to put reproducibility into practice. We will review installing and using `renv`, as well as preparing a repository for binder using `holepunch`.
