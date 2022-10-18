@@ -1,0 +1,26 @@
+Type: Compendium
+Package: Test Compendium
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: c(
+ .
+   )
+Description: Getting acquainted with reproducibility in R
+License: MIT
+Depends: 
+    dataRetrieval,
+    dplyr,
+    ggplot2,
+    holepunch,
+    lubridate,
+    remotes,
+    renv,
+    rmarkdown,
+    tidyr,
+    usethis,
+    viridis
+Remotes: 
+    karthik/holepunch
+Encoding: UTF-8
+LazyData: true
+usethis.title: My Test Compendium Compendium
